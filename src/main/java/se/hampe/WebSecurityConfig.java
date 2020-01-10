@@ -11,10 +11,10 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Autowired
+/*    @Autowired
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         //...
-    }
+    }*/
 
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception {
